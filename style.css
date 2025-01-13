@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: aqua;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(97, 29, 29);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(192, 158, 223);
+    cursor: pointer;
+    border: none;
+    color: rgb(0, 0, 0);
+}
+
+button:hover {
+    background-color: rgb(142, 235, 162);
+}

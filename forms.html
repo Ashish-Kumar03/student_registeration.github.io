@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registeration Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Student Information Form</h2>
+    <form action="/submit" method="post">
+      <label for="name" name="name">Full Name :</label>
+      <input
+        type="text"
+        id="name"
+        required
+        placeholder="Enter your full name"
+        required
+      />
+      <br />
+      <br />
+      <label for="age" name="age">Age :</label>
+      <input type="number" name="age" />
+      <br />
+      <br />
+      <label for="gender" name="gender">Gender</label>
+      <select name="gender" id="gender">
+        <option value="default">Select Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Others</option>
+      </select>
+      <br />
+      <br />
+      <label for="dob" name="dob">Date of Birth :</label>
+      <input type="date" name="dob" id="dob" required />
+      <br />
+      <br />
+      <label for="mobile" name="mobile">Contact Number :</label>
+      <input
+        type="tel"
+        name="mobile"
+        id="mobile"
+        maxlength="10"
+        placeholder="Enter 10 digit number"
+      />
+      <br />
+      <br />
+      <label for="email">Email Id :</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your email id"
+        required
+      />
+      <br />
+      <br />
+      <label for="course">Courses</label>
+      <select name="course" id="course">
+        <option value="course">Courses</option>
+        <option value="BTech">BTech</option>
+        <option value="MBA">MBA</option>
+        <option value="BCA">BCA</option>
+        <option value="B.COM">B.COM</option>
+      </select>
+      <br />
+      <br />
+      <label for="address">Address Line-1 :</label>
+      <input type="text" name="address" maxlength="50" />
+      <br />
+      <br />
+      <label for="address">Address Line-2 :</label>
+      <input type="text" name="address" maxlength="50" />
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
